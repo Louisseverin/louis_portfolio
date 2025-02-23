@@ -41,28 +41,28 @@ export const ABOUT_TEXT: string = `I have experience with technologies like Reac
 
 export const EXPERIENCES: Experience[] = [
   {
-    year: "May 2024 – Present",
-    role: "Java Developer Intern",
+    year: "Jan 2024 – Dec 2024",
+    role: "Software Developer Intern (Remote)",
     company: "QT Global Software, Kigali Rwanda",
     description: `Assisted in building and optimizing web and mobile applications using JavaScript (React, Node.js). Supported backend development with Java (Spring Boot) and Python, ensuring smooth API integration. Collaborated with UI/UX and DevOps teams to troubleshoot and enhance application performance.`,
     technologies: ["Java", "Spring Boot", "Python", "React.js", "Node.js"],
   },
   {
-    year: "August 2021 – December 2023",
+    year: "May 2021 – June 2023",
     role: "Full-Stack Developer (Remote)",
     company: "Flower Child, Kigali Rwanda",
     description: `Developed and maintained the e-commerce platform using HTML, CSS, JavaScript, Node.js, and MongoDB. Collaborated with the marketing team to create landing pages and promotional content. Led social media strategy and content creation for platforms like Instagram and Facebook.`,
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
   },
   {
-    year: "May 2020 – April 2021",
+    year: "May 2020 – Jan 2021",
     role: "Covid-Youth Volunteer Web Developer (Remote)",
     company: "REB, Kigali Rwanda",
     description: `Built a central hub for COVID-related resources, guidelines, and updates for teachers, students, and parents. Focused on creating educational and mental health content using JavaScript and Node.js.`,
     technologies: ["JavaScript", "Node.js", "HTML", "CSS"],
   },
   {
-    year: "May 2019 – April 2020",
+    year: "May 2019 – March 2020",
     role: "Junior Developer Intern",
     company: "MTN RWANDA, Kigali Rwanda",
     description: `Contributing to front-end projects using HTML, CSS, JavaScript, and relevant libraries like React. Gaining experience in identifying and resolving bugs in the system.
