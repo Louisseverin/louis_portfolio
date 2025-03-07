@@ -42,32 +42,37 @@ export const ABOUT_TEXT: string = `I have experience with technologies like Reac
 export const EXPERIENCES: Experience[] = [
   {
     year: "Jan 2024 – Dec 2024",
-    role: "Software Developer Intern (Remote)",
+    role: "Full-Stack Developer Intern (Remote)",
     company: "QT Global Software, Kigali Rwanda",
-    description: `Assisted in building and optimizing web and mobile applications using JavaScript (React, Node.js). Supported backend development with Java (Spring Boot) and Python, ensuring smooth API integration. Collaborated with UI/UX and DevOps teams to troubleshoot and enhance application performance.`,
-    technologies: ["Java", "Spring Boot", "Python", "React.js", "Node.js"],
+    description: `Assisted in the development of Qt Connect, a real-time chat application. Debugged backend issues by analyzing Spring Boot logs and testing API endpoints with Postman. Configured WebSocket for chat message handling using spring-messaging and WebSocket dependencies. Identified and resolved frontend bugs using React Native Debugger.`,
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "React Native",
+      "WebSockets",
+      "Postman",
+    ],
   },
   {
     year: "May 2021 – June 2023",
     role: "Full-Stack Developer (Remote)",
     company: "Flower Child, Kigali Rwanda",
-    description: `Developed and maintained the e-commerce platform using HTML, CSS, JavaScript, Node.js, and MongoDB. Collaborated with the marketing team to create landing pages and promotional content. Led social media strategy and content creation for platforms like Instagram and Facebook.`,
-    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
-  },
-  {
-    year: "May 2020 – Jan 2021",
-    role: "Covid-Youth Volunteer Web Developer (Remote)",
-    company: "REB, Kigali Rwanda",
-    description: `Built a central hub for COVID-related resources, guidelines, and updates for teachers, students, and parents. Focused on creating educational and mental health content using JavaScript and Node.js.`,
-    technologies: ["JavaScript", "Node.js", "HTML", "CSS"],
+    description: `Developed a plant-selling web application supporting full CRUD operations for user accounts and orders, with payment upon delivery. Implemented authentication using bcrypt.js and JWT, managed frontend routing with React Router DOM, and integrated Axios for backend communication. Provided maintenance and support for users facing account and order issues.`,
+    technologies: [
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "JWT",
+      "bcrypt.js",
+      "Axios",
+    ],
   },
   {
     year: "May 2019 – March 2020",
     role: "Junior Developer Intern",
     company: "MTN RWANDA, Kigali Rwanda",
-    description: `Contributing to front-end projects using HTML, CSS, JavaScript, and relevant libraries like React. Gaining experience in identifying and resolving bugs in the system.
-    Using Git for managing code changes and collaborating with the team. Assisting to integrate third-party services and work with RESTful APIs and test them using Postman`,
-    technologies: ["HTML", "CSS", "Postman", "JavaScript", "React", "Node.js"],
+    description: `Contributed to a microservice enabling users to buy phones and pay in installments with flexible plans. Designed a Mongoose schema for user and payment data, developed RESTful APIs for user registration and payment processing, and connected an Express server to MongoDB. Verified API functionality with Postman.`,
+    technologies: ["Node.js", "MongoDB", "Express", "Mongoose", "Postman"],
   },
 ];
 
