@@ -42,7 +42,7 @@ export const ABOUT_TEXT: string = `I have experience with technologies like Reac
 export const EXPERIENCES: Experience[] = [
   {
     year: "Jan 2024 – Dec 2024",
-    role: "Full-Stack Developer Intern (Remote)",
+    role: "Full-Stack Developer (Remote)",
     company: "QT Global Software, Kigali Rwanda",
     description: `Assisted in the development of Qt Connect, a real-time chat application. Debugged backend issues by analyzing Spring Boot logs and testing API endpoints with Postman. Configured WebSocket for chat message handling using spring-messaging and WebSocket dependencies. Identified and resolved frontend bugs using React Native Debugger.`,
     technologies: [
